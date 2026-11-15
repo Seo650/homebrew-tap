@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "fncaps" do
-  version "0.9.0"
-  sha256 "0a0acaf0138f73b46031b4027c614ad42ae7acb78a91f0412862ee01ed49a0d3"
+  version "0.9.1"
+  sha256 "64de7f65918f23d56d65186119a4764aca25874fabb3971cbdf08de28f204da3"
 
   url "https://github.com/Seo650/FnCaps/releases/download/v#{version}/FnCaps-#{version}.zip"
   name "FnCaps"
@@ -10,7 +10,7 @@ cask "fncaps" do
   homepage "https://github.com/Seo650/FnCaps"
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "FnCaps.app"
 
