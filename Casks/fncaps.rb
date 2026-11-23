@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "fncaps" do
-  version "0.9.3"
-  sha256 "b87f9a8efbff32e758eda2f397608c47f0bf08e4b4bf5ce9f18b112312b10f78"
+  version "0.9.4"
+  sha256 "c09c4a863acb9c50689ae3b87b3a6ada8e294a4a6e1660c5e4e77a5be303082e"
 
   url "https://github.com/Seo650/FnCaps/releases/download/v#{version}/FnCaps-#{version}.zip"
   name "FnCaps"
